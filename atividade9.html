@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 9</title>
+</head>
+<body>
+    <script>
+
+        let ano_nascimento = parseFloat(prompt("digite o ano de nascimento:"));
+        let idade = new Date().getFullYear() - ano_nascimento;
+
+        if(idade > 16){
+            document.write("você pode votar esse ano.")
+        }else{
+            document.write("você não pode votar esse ano.")
+        }
+
+
+
+    </script>
+</body>
+</html>
